@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(dir:*)",
+      "Bash(if not exist \"C:\\\\Users\\\\incor\\\\.claude\\\\projects\\\\C--Users-incor-Documents-development-fivemscripts-Level5-Crosshair\\\\memory\" mkdir \"C:\\\\Users\\\\incor\\\\.claude\\\\projects\\\\C--Users-incor-Documents-development-fivemscripts-Level5-Crosshair\\\\memory\")",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)"
+    ]
+  }
+}

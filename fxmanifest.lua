@@ -2,31 +2,21 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'Level5 Dev'
-version '1.0 -release'
+description 'Premium crosshair customizer with presets, shapes, and dynamic crosshair'
+version '2.0.0'
 
+shared_script 'shared/config.lua'
 
-client_script {
-    'client/client.lua',
-}
+client_script 'client/main.lua'
 
 ui_page 'html/index.html'
 
 files {
-	'html/index.html',
-	'html/css/*.css',
-	'html/js/*.js',
+    'html/index.html',
+    'html/assets/**/*',
 }
-
-server_script {
-}
-
-shared_scripts {
-    "@ox_lib/init.lua",  
-} 
 
 escrow_ignore {
-    'client/client.lua',
+    'shared/config.lua',
+    'client/main.lua',
 }
-
-
-lua54 'yes'
